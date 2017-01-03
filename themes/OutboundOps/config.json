@@ -1,0 +1,10 @@
+{
+  "name": "Outboundops",
+  "author": "Freelancer",
+  "authorUrl": "https://www.outboundops.com/",
+  "features": [
+    "page",
+    "email",
+    "form"
+  ]
+}

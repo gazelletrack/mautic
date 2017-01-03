@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{subject}</title>
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Lato:400);
+
+        /* Take care of image borders and formatting */
+
+        img {
+            max-width: 600px;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        a {
+            text-decoration: none;
+            border: 0;
+            outline: none;
+        }
+
+        a img {
+            border: none;
+        }
+
+        /* General styling */
+
+        td, h1, h2, h3  {
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 400;
+        }
+
+        body {
+            -webkit-font-smoothing:antialiased;
+            -webkit-text-size-adjust:none;
+            width: 100%;
+            height: 100%;
+            color: #37302d;
+            background: #ffffff;
+        }
+
+        h1, h2, h3 {
+            padding: 0;
+            margin: 0;
+           /* color: #ffffff;*/
+            font-weight: 400;
+        }
+
+        h3 {
+            color: #21c5ba;
+            font-size: 24px;
+        }
+
+        /* new Added*/
+        .header{
+            background-color: #402835;
+            height: 70px;
+            overflow: visible;
+            left: 0;
+            right: 0;
+            top: 0;
+            min-height:70px;
+        }
+
+        .header-enable{
+            max-width: 1100px; 
+            width: 88%;
+            position: relative;
+        }
+        .x-brand {
+            display: block;
+            float: left;
+            line-height: 1;
+            text-decoration: none;
+        }
+
+        .x-brand {
+            margin-top: 15px;
+            font-family: "Pacifico",handwriting;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0em;
+            color: #ffffff;
+        }
+
+        .x-brand img {
+            width: 250px;
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            border: 0;
+        }
+        ol, ul {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        ul, ol{
+            padding: 0;
+        }
+        ul, menu, dir {
+            display: block;
+            list-style-type: disc;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            -webkit-padding-start: 40px;
+        }
+
+        .x-nav {
+            display: block;
+            float: right;
+            margin: 0;
+            list-style: none;
+        }
+        .x-nav>li{
+            float: left;
+        }
+        .menu-item, .menu-item > a{
+            position: relative;
+        }
+        li {
+            line-height: 1.8;
+        }
+
+        /* list li css department*/
+
+         .x-nav>li {
+            float: left;
+        }
+         .menu-item,  .menu-item>a {
+            position: relative;
+        }
+         .menu-item {
+            position: relative;
+        }
+         .x-nav > li > a:hover,  .x-nav > .x-active > a,  .x-nav > .current-menu-item > a,  .sub-menu li > a:hover,  .sub-menu li.x-active > a,  .sub-menu li.current-menu-item > a,  .x-nav .x-megamenu > .sub-menu > li > a {
+            color: hsl(45,38%,74%);
+        }
+         .x-nav>li>a {
+            float: none;
+            line-height: 1;
+            text-decoration: none;
+            color: white;
+        }
+         .x-nav > li > a {
+            height: 70 px;
+            padding-top: 26px;
+            float: none;
+            line-height: 1;
+            text-decoration: none;
+        }
+        .x-nav-wrap{
+            display: block;
+        }
+        .x-nav-wrap .x-nav > li > a {
+            font-family: "Lato",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.071em;
+            text-transform: uppercase;
+        }
+         .x-nav > li >a {
+            font-size: 14px;
+        }
+         .x-nav > li > a {
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        .x-nav>li>a {
+            /* display: block; */
+        }
+         .x-nav > li > a:hover > span,  .x-nav > li.x-active > a > span,  .x-nav > li.current-menu-item > a > span {
+            box-shadow: 0 2px 0 0 hsl(45,38%,74%);
+        }
+         .x-nav > li > a > span {
+            margin-right: -0.071em;
+            padding: 0 0 5px;
+        }
+        .x-nav>li>a>span {
+            display: inline-block;
+        }
+         .x-nav>li:last-child>a,  .x-nav>li:last-child>a {
+            padding-right: 0;
+        }
+        .x-nav {
+            margin-top: 20px;
+        }
+
+        /* list li defintion css end*/
+
+        .footer {
+            background-color:#373737; 
+            color: hsl(46,31%,79%);
+            min-height: 100px;
+        }
+        .site-link {
+            margin:30px 0;
+            width: 100%;
+        }
+        .footer td{
+            text-align:center;
+        }
+        .footer-sector{
+            width: 88%;
+            max-width: 1100px;
+        }
+        .menu-link{
+            margin:0 0 10px 0;
+        }
+        .menu-link-item{
+            color: hsl(46,31%,79%);
+            text-transform: uppercase;
+            opacity: 1;
+            transition: color 0.3s ease;
+        }
+        .menu-link-item:hover{
+            color:hsl(46,5%,39%);
+        }
+        /* new added end*/
+    </style>
+
+    <style type="text/css" media="screen">
+        @media screen {
+             /* Thanks Outlook 2013! http://goo.gl/XLxpyl*/
+            td, h1, h2, h3 {
+                font-family: 'Lato', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+            }
+        }
+    </style>
+
+    <style type="text/css" media="only screen and (max-width: 480px)">
+        /* Mobile styles */
+        @media only screen and (max-width: 480px) {
+
+            table[class="w320"] {
+                width: 320px !important;
+            }
+
+            table[class="w300"] {
+                width: 300px !important;
+            }
+
+            table[class="w290"] {
+                width: 290px !important;
+            }
+
+            td[class="w320"] {
+                width: 320px !important;
+            }
+
+            td[class="mobile-center"] {
+                text-align: center !important;
+            }
+
+            td[class="mobile-padding"] {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+                padding-bottom: 20px !important;
+            }
+        }
+    </style>
+</head>
+<body class="body" style="padding:0; margin:0; display:block; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
+   <div data-section-wrapper class="header">
+        <center>
+            <table data-section  class="w320 header-enable">
+                <tr>
+                    <td>
+                        <center>
+                            <table style="width:50%;float: left;" >
+                                <tr>
+                                    <td style="text-align:center" data-slot-container>
+                                        <div data-slot="text">
+                                            <a href="https://www.outboundops.com/" class="x-brand img">
+                                                <img src="{{ getAssetUrl('themes/'~template~'/img/logo.gif', null, null, true) }}">
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>    
+                            </table>
+                            <table style="width:50%;float: right;" >
+                                <tr>
+                                    <td style="text-align:center" data-slot-container>
+                                        <div data-slot="text">
+                                            <nav class="x-nav-wrap" role="navigation">
+                                                <ul id="menu-main-menu" class="x-nav">
+                                                    <li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65">
+                                                        <a href="http://www.outboundops.com"><span>Home</span></a>
+                                                    </li>
+                                                    <li id="menu-item-340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340">  
+                                                        <a href="https://www.outboundops.com/services/"><span>Services</span></a>
+                                                    </li>
+                                                    <li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215">
+                                                        <a href="https://www.outboundops.com/about/"><span>About</span></a>
+                                                    </li>
+                                                    <li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428">
+                                                        <a href="https://www.outboundops.com/blog/"><span>Blog</span></a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </td>
+                                </tr>    
+                            </table>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div data-section-wrapper class="texthere">
+        <center>
+            <table data-section style="width: 90%;" width="90%" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-slot-container style="min-height: 500px">
+                                <div data-slot="text">
+                                    <br>
+                                    <h2>Hello there!</h2>
+                                    <br>
+                                    We haven't heard from you for a while...
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+    <div data-section-wrapper  class="footer">
+        <center>
+            <table data-section class="w320 footer-sector">
+                <tr>
+                    <td>
+                        <table class="site-link" >
+                            <tr>
+                                <td  data-slot-container>
+                                    <div data-slot="text">
+                                        <a href="https://twitter.com/OutboundOps">
+                                            <img width="61" height="57" src="{{ getAssetUrl('themes/'~template~'/img/twitter.gif', null, null, true) }}" alt="twitter" />
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/outboundops">
+                                            <img width="61" height="57" src="{{ getAssetUrl('themes/'~template~'/img/linkedin.gif', null, null, true) }}" alt="linkedin" />
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <table class="menu-link">
+                                <tr>
+                                    <td data-slot-container>
+                                        <div data-slot="text">
+                                                <a href="http://www.outboundops.com" class="menu-link-item">HOME </a>
+                                        </div>
+                                    </td>
+                                    <td style="color: hsl(46,31%,79%)">/</td>
+                                    <td data-slot-container>
+                                        <div data-slot="text">
+                                            <a href="https://www.outboundops.com/services/" class="menu-link-item"> SERVICES </a>
+                                        </div>
+                                    </td> 
+                                    <td style="color: hsl(46,31%,79%)">/</td>
+                                    <td data-slot-container>
+                                            <div data-slot="text">
+                                                <a href="https://www.outboundops.com/about/" class="menu-link-item"> ABOUT </a>
+                                            </div>
+                                    </td>
+                                    <td style="color: hsl(46,31%,79%)">/</td>
+                                    <td data-slot-container>
+                                            <div data-slot="text">
+                                                <a href="https://www.outboundops.com/blog/" class="menu-link-item"> BLOG</a>
+                                            </div>
+                                    </td>
+                                </tr>    
+                            </table>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <table style="margin:0 auto;"  width="100%">
+                                <tr>
+                                    <td style="text-align:center; margin:0 auto;" width="100%" data-slot-container>
+                                        <div data-slot="text"  style="color: hsl(46,31%,79%)">
+                                            <p> OutboundOps 2016 </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+</body>
+</html>
