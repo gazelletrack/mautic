@@ -291,7 +291,7 @@ class LeadSubscriber extends CommonSubscriber
             'lead.utmtagsadded' => 'mautic.lead.event.utmtagsadded',
             'lead.donotcontact' => 'mautic.lead.event.donotcontact',
         ];
-
+        //die('end');
         $filters = $event->getEventFilters();
 
         foreach ($eventTypes as $type => $label) {

@@ -2307,7 +2307,7 @@ class LeadModel extends FormModel
             LeadEvents::TIMELINE_ON_GENERATE,
             new LeadTimelineEvent($lead, $filters, $orderBy, $page, $limit)
         );
-
+        
         return [
             'events'   => $event->getEvents(),
             'filters'  => $filters,

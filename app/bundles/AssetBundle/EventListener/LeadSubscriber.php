@@ -64,8 +64,8 @@ class LeadSubscriber extends CommonSubscriber
 
         // Decide if those events are filtered
         if (!$event->isApplicable($eventTypeKey)) {
-            return;
         }
+            return;
 
         $lead = $event->getLead();
 
