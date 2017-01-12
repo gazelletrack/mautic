@@ -534,7 +534,7 @@ class Stat
         return $this;
     }
 
-    /**
+    /**s
      * @param $details
      */
     public function addOpenDetails($details)
